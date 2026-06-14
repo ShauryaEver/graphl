@@ -2,7 +2,7 @@
   <h1><img src="https://gocart-gs.vercel.app/favicon.ico" width="20" height="20" alt="Graphl Favicon">
    Graphl</h1>
   <p>
-    An open-source multi-vendor e-commerce platform built with Next.js and Tailwind CSS.
+This site is personal for ecommerce project - developed by Shaurya Bhavsar.
   </p>
   <p>
     <a href="https://github.com/GreatStackDev/graphl/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/GreatStackDev/graphl?style=for-the-badge" alt="License"></a>
