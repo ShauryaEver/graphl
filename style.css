@@ -110,3 +110,13 @@ nav {
     letter-spacing: 1px;
 }
 
+.product img {
+    width: 350px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.product img:hover {
+    transform: scale(1.03);
+}
