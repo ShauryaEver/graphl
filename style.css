@@ -1,11 +1,15 @@
 body {
-    background-color: #000;
-    color: #fff;
+    background: linear-gradient(
+        135deg,
+        #000000,
+        #111111,
+        #1a1a1a
+    );
+    color: white;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-
 .hero {
     height: 100vh;
     display: flex;
