@@ -103,3 +103,10 @@ nav {
     color: #bdbdbd;
 }
 
+.subtext {
+    color: #888;
+    font-size: 18px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
