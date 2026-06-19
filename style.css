@@ -46,3 +46,25 @@ body {
     color: black;
     transform: translateY(-2px);
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.nav-logo {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
