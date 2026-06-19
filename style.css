@@ -1,9 +1,9 @@
 body {
-    background: linear-gradient(
-        135deg,
-        #000000,
-        #111111,
-        #1a1a1a
+    background: radial-gradient(
+        circle at top,
+        #333333 0%,
+        #111111 40%,
+        #000000 100%
     );
     color: white;
     font-family: Arial, sans-serif;
