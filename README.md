@@ -1,113 +1,115 @@
-# UOMO E-commerce Website Using ReactJS
+# DFabrica
+This is a Ecommerce site with clothing having both client and admin side
+### https://dfabrica.netlify.app/
 
-![uomo-ecommerce-website-reactjs](https://socialify.git.ci/shakti177/uomo-ecommerce-website-reactjs/image?custom_language=React&forks=1&issues=1&language=1&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Auto)
+## 🔗 Team Members Github Profiles
+[Ramsundar Sivakumar](https://github.com/RamR3R)
 
-## 📌 Live Demo
-https://uomo-ecommerce-website.netlify.app/
+[Suraj Deosarkar](https://github.com/Suraj12398)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fec4a869-298c-4e9c-8df6-cb6f132f7bd8/deploy-status)](https://app.netlify.com/sites/uomo-ecommerce-website/deploys)
+[Sumit Kumar](https://github.com/ksumit01)
 
-## 😎 Features
+[Navneet Srivastava](https://github.com/Navneet3009)
 
-- Sleek and modern UI inspired by top e-commerce platforms
-- Fully responsive, providing a seamless shopping experience on any device
-- Effortless cart management, allowing users to add items with ease
-- Detailed product views for informed purchasing decisions
-- Real-time cart total updates for a transparent checkout process
-- Adjustable item quantities directly from the product page, streamlining the shopping experience without repetitive clicks
-- Interactive 3D t-shirt model, enhancing user engagement with an immersive shopping experience powered by Three.js 
+[Fija Jahangir Shaikh](https://github.com/fija29)
 
-## 🚀 What technologies were used?
+# Deployed Site Link
+### https://dfabrica.netlify.app/
 
-- React.js (Create React App)
-- React Router DOM for seamless navigation
-- Material-UI for modern and responsive UI components
-- State management with Redux Toolkit
-- Three.js for immersive 3D models
-- Responsive web design principles for a mobile-friendly experience
+# API Data base in `db.json file`
+Hard collected from the cloning example site https://www.bewakoof.com/
+# Deployed API Link for DFabrica : 
+### https://dfabrica-data-app.onrender.com
 
----
+# API github Link
+### https://github.com/RamR3R/Dfabrica-data-app
 
-## 📁 Project Structure
+# DFabrica API
 
-```
-├── .gitignore
-├── netlify.toml
-├── package.json
-├── README.md
-├── public/
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── manifest.json
-│   └── shirt_baked_2.glb
-└── src/
-    ├── App.css
-    ├── App.js
-    ├── App.test.js
-    ├── index.css
-    ├── index.js
-    ├── reportWebVitals.js
-    ├── setupTests.js
-    ├── App/
-    │   └── store.js
-    ├── Assets/
-    │   ├── logo.png
-    │   ├── nav-bg.jpg
-    │   ├── newsletter-popup.jpg
-    │   ├── pattern_bg.png
-    │   ├── paymentIcon.png
-    │   ├── slideshow-character1.png
-    │   ├── slideshow-character2.png
-    │   ├── slideshow-pattern.png
-    │   ├── success.png
-    │   ├── About/
-    │   ├── Banner/
-    │   ├── Blog/
-    │   ├── Brands/
-    │   └── Collection/
-    ├── Components/
-    ├── Data/
-    ├── Features/
-    └── Pages/
+## API Reference
+We can perform all CRUD Operation Using the deployed API   `GET` ,`POST` , `PUT` ,`PATCH` and `DELETE`
+### `api/admin` Routes are proteced and need to be accesed with `JWT token`
+#### Get all items
+
+
+
+```http
+  GET http://dfabrica-data-app.onrender.com/users
 ```
 
----
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | gets all the user data |
 
-## 🖥️ How can you clone and tweak this project?
+#### Get item
 
-From your command line, first clone this repo:
-
-```
-# Clone this repository
-$ https://github.com/shakti177/uomo-ecommerce-website-reactjs.git
-
-# Go into the repository
-$ cd uomo-ecommerce-website-reactjs
-
-# Remove current origin repository
-$ git remote remove origin
-
+```http
+  GET http://dfabrica-data-app.onrender.com/users/${id}
 ```
 
-Then you can install the dependencies using NPM:
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of user to fetch |
 
-```
-# Install dependencies
-$ npm install
 
-# Start development server
-$ npm start
-```
+## 🔗 Deployed Link
 
-## Star History
+  `http://dfabrica-data-app.onrender.com`
+  [![logo](https://user-images.githubusercontent.com/121308432/229314546-0b7bca65-b132-485a-a20f-ee7900106ddc.jpg)](http://dfabrica-data-app.onrender.com/)
+  
+  
+# Landing Page
+![image](https://user-images.githubusercontent.com/121308432/229394485-cb418a61-a5f2-45eb-ba7d-ab6ac283a56e.png)
 
-<a href="https://www.star-history.com/#shakti177/uomo-ecommerce-website-reactjs&Timeline">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=shakti177/uomo-ecommerce-website-reactjs&type=Timeline&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=shakti177/uomo-ecommerce-website-reactjs&type=Timeline" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=shakti177/uomo-ecommerce-website-reactjs&type=Timeline" />
- </picture>
-</a>
+# User Login Page
+## This page has the feature of ` Email verification ` for the new users Signing Up. This is done by using SMTPJS.
+By sending OTP to verify user Email address.
 
-👨‍💻 Happy coding!
----
+### https://smtpjs.com/
+
+![image](https://user-images.githubusercontent.com/121308432/229394568-608effad-00d6-4368-b8f7-4a816a67ede0.png)
+
+# Category Page
+## Here the api data for each category is displayed and the filter functionality could be used simaltaneously with different combinations
+![image](https://user-images.githubusercontent.com/121308432/229394785-ec281354-9996-41ba-a18a-065dc09eecd1.png)
+
+# Individual Product Page
+Here the currency funtionality is used we can change the country loction and get the respiective price of the corresponding countries.
+![image](https://user-images.githubusercontent.com/121308432/229395104-7e8549b1-26fd-472e-8241-d23bd1ab8b18.png)
+![image](https://user-images.githubusercontent.com/121308432/229395116-7dc0c811-1e8d-487e-ad59-f2227b7eddc8.png)
+
+
+## The check availability funtion uses ` GoogleMaps Api ` to calculate the distance between source of the product and destination of the user using 
+## ` Distance Matrix API ` from Google Maps API.
+![image](https://user-images.githubusercontent.com/121308432/229395368-9c502394-cfe4-45c7-b0a8-935ac4e0aa96.png)
+ 
+# Checkout Page
+## Here the user details are fetched from the LS from key ` login-info ` stored during Login or Signup of a user.
+## When the user enters the ` PINCODE ` the data of City , State and Country is fetched Automatically with the help of ` GoogleMapsAPI `.
+#
+![image](https://user-images.githubusercontent.com/121308432/229396055-8f3858e8-4ca6-481c-beee-70642aaabf32.png)
+
+#Admin Login Page
+Admin can Login from here
+# 
+![image](https://user-images.githubusercontent.com/121308432/229397057-de90680f-0b81-456c-b510-b58e95475ffe.png)
+
+#Admin AddItem Page
+
+# 
+
+ Admin would be able to add Products from the admin page in the api and allow the users to get them from the client side.
+` POST ` method - adding products
+` PATCH ` method - Updating products
+` DELETE ` method - Deleting products
+
+#
+![image](https://user-images.githubusercontent.com/121308432/229397352-fcdd5472-ea0f-428e-86f8-5afa1ba00992.png)
+
+
+
+# The APIs Used in this project are below:
+### https://smtpjs.com/                   = Email sender usgin API in JS.
+### https://cloud.google.com/apis         = Locating the User, Fetching Address using Location (Lat , Lng)
+### DistanceMatrixApi                     = Calculate the route , distance and duration between 2 end points
+### http://dfabrica-data-app.onrender.com = Api database with all CRUD operations and JWT Protected Routes.
