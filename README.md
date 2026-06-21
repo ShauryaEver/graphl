@@ -1,85 +1,113 @@
-<div align="center">
-  <h1><img src="https://gocart-gs.vercel.app/favicon.ico" width="20" height="20" alt="Graphl Favicon">
-   Graphl</h1>
-  <p>
-    An open-source multi-vendor e-commerce platform built with Next.js and Tailwind CSS.
-  </p>
-  <p>
-    <a href="https://github.com/GreatStackDev/graphl/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/GreatStackDev/graphl?style=for-the-badge" alt="License"></a>
-    <a href="https://github.com/GreatStackDev/graphl/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome"></a>
-    <a href="https://github.com/GreatStackDev/graphl/issues"><img src="https://img.shields.io/github/issues/GreatStackDev/graphl?style=for-the-badge" alt="GitHub issues"></a>
-  </p>
-</div>
+# UOMO E-commerce Website Using ReactJS
+
+![uomo-ecommerce-website-reactjs](https://socialify.git.ci/shakti177/uomo-ecommerce-website-reactjs/image?custom_language=React&forks=1&issues=1&language=1&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Auto)
+
+## 📌 Live Demo
+https://uomo-ecommerce-website.netlify.app/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fec4a869-298c-4e9c-8df6-cb6f132f7bd8/deploy-status)](https://app.netlify.com/sites/uomo-ecommerce-website/deploys)
+
+## 😎 Features
+
+- Sleek and modern UI inspired by top e-commerce platforms
+- Fully responsive, providing a seamless shopping experience on any device
+- Effortless cart management, allowing users to add items with ease
+- Detailed product views for informed purchasing decisions
+- Real-time cart total updates for a transparent checkout process
+- Adjustable item quantities directly from the product page, streamlining the shopping experience without repetitive clicks
+- Interactive 3D t-shirt model, enhancing user engagement with an immersive shopping experience powered by Three.js 
+
+## 🚀 What technologies were used?
+
+- React.js (Create React App)
+- React Router DOM for seamless navigation
+- Material-UI for modern and responsive UI components
+- State management with Redux Toolkit
+- Three.js for immersive 3D models
+- Responsive web design principles for a mobile-friendly experience
 
 ---
 
-## 📖 Table of Contents
+## 📁 Project Structure
 
-- [✨ Features](#-features)
-- [🛠️ Tech Stack](#-tech-stack)
-- [🚀 Getting Started](#-getting-started)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
-
----
-
-## Features
-
-- **Multi-Vendor Architecture:** Allows multiple vendors to register, manage their own products, and sell on a single platform.
-- **Customer-Facing Storefront:** A beautiful and responsive user interface for customers to browse and purchase products.
-- **Vendor Dashboards:** Dedicated dashboards for vendors to manage products, view sales analytics, and track orders.
-- **Admin Panel:** A comprehensive dashboard for platform administrators to oversee vendors, products, and commissions.
-
-## 🛠️ Tech Stack <a name="-tech-stack"></a>
-
-- **Framework:** Next.js
-- **Styling:** Tailwind CSS
-- **UI Components:** Lucide React for icons
-- **State Management:** Redux Toolkit
-
-## 🚀 Getting Started <a name="-getting-started"></a>
-
-First, install the dependencies. We recommend using `npm` for this project.
-
-```bash
-npm install
+```
+├── .gitignore
+├── netlify.toml
+├── package.json
+├── README.md
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   └── shirt_baked_2.glb
+└── src/
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── reportWebVitals.js
+    ├── setupTests.js
+    ├── App/
+    │   └── store.js
+    ├── Assets/
+    │   ├── logo.png
+    │   ├── nav-bg.jpg
+    │   ├── newsletter-popup.jpg
+    │   ├── pattern_bg.png
+    │   ├── paymentIcon.png
+    │   ├── slideshow-character1.png
+    │   ├── slideshow-character2.png
+    │   ├── slideshow-pattern.png
+    │   ├── success.png
+    │   ├── About/
+    │   ├── Banner/
+    │   ├── Blog/
+    │   ├── Brands/
+    │   └── Collection/
+    ├── Components/
+    ├── Data/
+    ├── Features/
+    └── Pages/
 ```
 
-Then, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🖥️ How can you clone and tweak this project?
+
+From your command line, first clone this repo:
+
+```
+# Clone this repository
+$ https://github.com/shakti177/uomo-ecommerce-website-reactjs.git
+
+# Go into the repository
+$ cd uomo-ecommerce-website-reactjs
+
+# Remove current origin repository
+$ git remote remove origin
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then you can install the dependencies using NPM:
 
-You can start editing the page by modifying `app/(public)/page.js`. The page auto-updates as you edit the file.
+```
+# Install dependencies
+$ npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Outfit](https://vercel.com/font), a new font family for Vercel.
+# Start development server
+$ npm start
+```
 
+## Star History
+
+<a href="https://www.star-history.com/#shakti177/uomo-ecommerce-website-reactjs&Timeline">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=shakti177/uomo-ecommerce-website-reactjs&type=Timeline&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=shakti177/uomo-ecommerce-website-reactjs&type=Timeline" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=shakti177/uomo-ecommerce-website-reactjs&type=Timeline" />
+ </picture>
+</a>
+
+👨‍💻 Happy coding!
 ---
-
-## 🤝 Contributing <a name="-contributing"></a>
-
-We welcome contributions! Please see our [CONTRIBUTING.md](./CONTRIBUTING.md) for more details on how to get started.
-
----
-
-## 📜 License <a name="-license"></a>
-
-This project is licensed under the MIT License. See the [LICENSE.md](./LICENSE.md) file for details.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
